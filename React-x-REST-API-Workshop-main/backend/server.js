@@ -29,7 +29,7 @@ const singleRecordEndpoint = `https://${subdomain}.kintone.com/k/v1/record.json?
 
 // Kintone app's field codes are 'country' 'state' and 'city'.
 
-// TODO: Create a GET endpoint at /getData
+// Create a GET endpoint at /getData
 app.get('/getData', cors(corsOptions), async (req, res) => {
   const fetchOptions = {
     method: 'GET',
@@ -43,7 +43,7 @@ app.get('/getData', cors(corsOptions), async (req, res) => {
 
 })
 
-// TODO: Create a POST endpoint at /postData
+// Create a POST endpoint at /postData
 
 app.listen(PORT, () => {
   console.log(`\n Backend server listening at http://localhost:${PORT} \n Confirm if Kintone records are being retrieved at \n http://localhost:${PORT}/getData`);
