@@ -5,9 +5,6 @@ Let's create a front-end React Component that exchanges the contents of a 3rd pa
 ## Completed Project
 ![PROJECT_DEMO_GIF.gif](./docs/img/PROJECT_DEMO_GIF.gif)
 
-
-⚡ Two terminal windows are required for this workshop.
-
 ### Terminal 1
 
 ```shell
@@ -35,7 +32,6 @@ cd backend && npm install
 
 Open the `React-x-REST-API-Workshop` folder in [VS Code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-line) as well:
 
-```shell
 
 
 
